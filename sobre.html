@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Dito Lambari - Sobre</title>
+    <meta charset="utf-8">
+    <!-- Inclua o link para o CSS do Bootstrap -->
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href="bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            background-color: #fcec90; /* Cor de fundo amarela */
+            text-align: center; /* Centralizar o texto */
+            font-family: Arial, sans-serif; /* Fonte geral */
+            margin: 0;
+            padding: 0;
+        }
+        .topo {
+            background-color: #343a40; /* Cor de fundo preta para o cabeçalho */
+            color: white; /* Cor do texto no cabeçalho */
+            padding: 20px 0;
+        }
+        .topo a {
+            color: #17a2b8; /* Cor dos links no cabeçalho */
+        }
+        .navbar {
+            background-color: #343a40; /* Cor de fundo da navbar */
+        }
+        .conteudo-sobre {
+            background-color: white; /* Fundo branco para o conteúdo */
+            padding: 20px;
+            border-radius: 10px; /* Borda arredondada para o conteúdo */
+            text-align: center; /* Centralizar o conteúdo */
+        }
+        .conteudo-sobre h3 {
+            color: #343a40; /* Cor do título principal no conteúdo */
+        }
+        .conteudo-sobre p {
+            color: #343a40; /* Cor do texto no conteúdo */
+        }
+        .rodape {
+            background-color: #343a40; /* Cor de fundo escura para o rodapé */
+            color: #fff; /* Cor do texto no rodapé */
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body class="sobre">
+    <header class="topo">
+        <h1>Dito Lambari - Restaurante Cuiabano</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" style="color: white"  href="/">Dito Lambari - Restaurante Cuiabano</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: white;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> <!-- Centralize os itens do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="sobre.html" target="_blank">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="receitas.html" target="_blank">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="contato.html" target="_blank">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="conteudo-sobre">
+        <h1>SAIBA MAIS...</h1>
+        <h3>A Lenda do Mestre Culinário</h3>
+        <img src="imagem2.jpg" alt="Restaurante Cuiabano" style="max-width: 25%;">
+        <br><br>
+        <p>Dito Lambari é uma lenda viva na culinária cuiabana. Com mais de 40 anos de experiência,<br>
+            ele é conhecido por suas habilidades excepcionais na preparação de pratos tradicionais da região.</p>
+        <p>Desde jovem, Dito Lambari mostrou um interesse apaixonado pela culinária e pela riqueza dos sabores do Mato Grosso.<br>
+            Ele percorreu fazendas e mercados locais, aprendendo com os mestres da cozinha tradicional cuiabana.</p>
+        <p>Hoje, ele é uma autoridade culinária e sua jornada é uma história inspiradora que nos leva aos segredos da cozinha mato-grossense.</p>
+    </section>
+    <footer class="rodape">
+        <p>&copy; 2023 Dito Lambari - Conheça a história por trás da lenda culinária de Cuiabá.</p>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $("h1").fadeOut(2000); // Tempo em milissegundos (2 segundos)
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Dito Lambari - Restaurante Cuiabano</title>
+    <meta charset="utf-8">
+    <!-- Inclua o link para o CSS do Bootstrap -->
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href="bootstrap.css">
+    <script src="https://ajax.googleapis.com/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            background-color: #fcec90; /* Cor de fundo amarela */
+            text-align: center; /* Centralizar o texto */
+            font-family: Arial, sans-serif; /* Fonte geral */
+            margin: 0;
+            padding: 0;
+        }
+        .topo {
+            background-color: #343a40; /* Cor de fundo preta para o cabeçalho */
+            color: white; /* Cor do texto no cabeçalho */
+            padding: 20px 0;
+        }
+        .topo a {
+            color: #17a2b8; /* Cor dos links no cabeçalho */
+        }
+        .navbar {
+            background-color: #343a40; /* Cor de fundo da navbar */
+        }
+        .conteudo {
+            background-color: white; /* Fundo branco para o conteúdo */
+            padding: 20px;
+            border-radius: 10px; /* Borda arredondada para o conteúdo */
+            text-align: center; /* Centralizar o conteúdo */
+        }
+        .conteudo h3 {
+            color: #343a40; /* Cor do título principal no conteúdo */
+        }
+        .conteudo p {
+            color: #343a40; /* Cor do texto no conteúdo */
+        }
+        .rodape {
+            background-color: #343a40; /* Cor de fundo escura para o rodapé */
+            color: #fff; /* Cor do texto no rodapé */
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body class="home">
+    <header class="topo">
+        <h1>Dito Lambari - Restaurante Cuiabano</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" style="color: white"  href="/">Dito Lambari - Restaurante Cuiabano</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: white;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> <!-- Centralize os itens do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="sobre.html" target="_blank">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="receitas.html" target="_blank">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="contato.html" target="_blank">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="conteudo">
+        <h3>Bem-vindo ao Restaurante Cuiabano de Dito Lambari</h3>
+        <img src="imagem1.webp" alt="Restaurante Cuiabano" style="max-width: 50%;">
+        <br> <br>
+        <p>Explore o sabor autêntico da culinária cuiabana em nosso restaurante.</p> 
+        <p>Convidamos você a desfrutar dos sabores tradicionais do Mato Grosso preparados pelo mestre Dito Lambari.</p>
+        <p>Conheça nossas receitas exclusivas e experimente a essência da cozinha cuiabana em cada prato.</p>
+    </section>
+    <footer class="rodape">
+        <p>&copy; 2023 Dito Lambari - Sabores autênticos de Cuiabá.</p>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            alert("Bem-vindo(a) ao site do Dito Lambari!");
+        });
+    </script>    
+</body>
+</html>

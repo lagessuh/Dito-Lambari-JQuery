@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Dito Lambari - Receitas</title>
+    <meta charset="utf-8">
+    <!-- Inclua o link para o CSS do Bootstrap -->
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' href="bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            background-color: white; /* Cor de fundo amarela */
+            text-align: center; /* Centralizar o texto */
+            font-family: Arial, sans-serif; /* Fonte geral */
+            margin: 0;
+            padding: 0;
+        }
+        .topo {
+            background-color: #343a40; /* Cor de fundo preta para o cabeçalho */
+            color: white; /* Cor do texto no cabeçalho */
+            padding: 20px 0;
+        }
+        .topo a {
+            color: #17a2b8; /* Cor dos links no cabeçalho */
+        }
+        .navbar {
+            background-color: #343a40; /* Cor de fundo da navbar */
+        }
+        .conteudo-receitas {
+            background-color: white; /* Fundo branco para o conteúdo */
+            padding: 20px;
+            border-radius: 10px; /* Borda arredondada para o conteúdo */
+            text-align: center; /* Centralizar o conteúdo */
+        }
+        .conteudo-receitas button h3 {
+            color: #343a40; /* Cor do título principal no conteúdo */
+        }
+        .conteudo-receitas p {
+            color: #343a40; /* Cor do texto no conteúdo */
+        }
+        .rodape {
+            background-color: #343a40; /* Cor de fundo escura para o rodapé */
+            color: #fff; /* Cor do texto no rodapé */
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body class="receitas">
+    <header class="topo">
+        <h1>Dito Lambari - Restaurante Cuiabano</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" style="color: white"  href="/">Dito Lambari - Restaurante Cuiabano</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: white;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> <!-- Centralize os itens do menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="sobre.html" target="_blank">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="receitas.html" target="_blank">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white" href="contato.html" target="_blank">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="conteudo-receitas"></section>
+        <button><h3>Peixe à Matogrossense</h3></button>
+        <br><br>
+        <p>Uma das receitas mais icônicas de Dito Lambari é o "Peixe à Matogrossense".<br>
+            Este prato é uma explosão de sabores regionais, com <br>destaque para o uso de peixes de água doce e ingredientes locais.</p>
+        <p>Ingredientes:<br>1 kg de peixe de água doce (como o pintado)<br>2 cebolas roxas picadas<br>2 tomates picados<br>
+            2 pimentões picados<br>200 ml de leite de coco<br>2 colheres de sopa de óleo de dendê<br>
+            Sal e pimenta a gosto</p>
+        <p>Modo de Preparo:<br>Tempere o peixe com sal e pimenta a gosto.<br>Em uma panela grande, aqueça o óleo de dendê e <br>refogue
+            as cebolas, tomates e pimentões até ficarem macios.<br>Adicione o peixe à panela e cozinhe até que esteja bem cozido.<br>
+            Acrescente o leite de coco e cozinhe por mais alguns minutos.<br>Sirva o "Peixe à Matogrossense" com arroz branco e 
+            aproveite!</p>
+    </section>
+    <footer class="rodape">
+        <h6>&copy; 2023 Dito Lambari - Descubra o sabor autêntico do Mato Grosso com as receitas icônicas de Dito Lambari.</h6>
+        <br><br><br>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $("button").click (function(){
+                 $("p").toggle();
+            }); 
+        });
+    </script>
+</body>
+</html>
